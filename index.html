@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collision Detection</title>
+    <style>
+      .board{
+        width: 700px;
+        height: 500px;
+        border: 1px solid red;
+        position: relative;
+      }
+
+      .object-1{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        position: absolute;
+        left: 105px;
+      }
+      .object-2{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        top: 200px;
+        left: 200px;
+        position: absolute;
+      }
+    </style>
+</head>
+<body>
+  <div class="board">
+    <div class="object-1"></div>
+    <div class="object-2"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
