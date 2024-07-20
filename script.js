@@ -66,9 +66,4 @@ function moveBox1(){
     // from bottom
     // console.log(box1.getBoundingClientRect().y <= box2Position.y + box2.clientHeight);
 
-
-    
-
-
-
 } 
